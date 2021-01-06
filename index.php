@@ -65,7 +65,7 @@
                                         <img src="resources/images/tower.jpg" alt="plane at gate" class="thumb">
                                     </div>
                                     <div class="col-md-9">
-                                        <p class="card-text">Many traffic maneuvers require the pilot to do a 180 degree turn and fly in the opposit direction. Even tough this task seems to be quite simple, doing this calculation in your head while still focusing on speed, altitude and other things can lead to mistakes. In this lesson you will learn a very easy method to figure out your reciprocal heading in your head.</p>
+                                        <p class="card-text">Many traffic patterns require the pilot to do a 180 degree turn and fly in the opposit direction. Even tough this task seems to be quite simple, doing this calculation in your head while still focusing on speed, altitude and other things can lead to mistakes. In this lesson you will learn a very easy method to figure out your reciprocal heading in your head.</p>
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-md">
@@ -73,6 +73,33 @@
                                                 </div>
                                                 <div class="col-md">
                                                     <a href="reciprocal-heading-practice.php" class="btn btn-success btn-block m-1">Practice</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-3 card text-white bg-secondary see-through">
+                        <div class="card-header">
+                            <h5>Top of Decent</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="resources/images/approach.jpg" alt="plane at gate" class="thumb">
+                                    </div>
+                                    <div class="col-md-9">
+                                        <p class="card-text">Many traffic patterns require the pilot to do a 180 degree turn and fly in the opposit direction. Even tough this task seems to be quite simple, doing this calculation in your head while still focusing on speed, altitude and other things can lead to mistakes. In this lesson you will learn a very easy method to figure out your reciprocal heading in your head.</p>
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-md">
+                                                    <a href="top-of-descent-explanation.php" class="btn btn-primary btn-block m-1">How To</a>
+                                                </div>
+                                                <div class="col-md">
+                                                    <a href="top-of-descent-practice.php" class="btn btn-success btn-block m-1">Practice</a>
                                                 </div>
                                             </div>
                                         </div>

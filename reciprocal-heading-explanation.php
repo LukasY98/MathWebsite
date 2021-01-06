@@ -29,6 +29,18 @@
                             </div>
                             <div class="col-md-8">
                                 <div class="mt-5 border-slim transparent-background">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <a class="btn btn-secondary btn-block" href="index.php"><i class="fas fa-long-arrow-alt-left"></i> Back</a>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <a class="btn btn-secondary btn-block" href="reciprocal-heading-practice.php">Practise <i class="fas fa-long-arrow-alt-right"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-2 border-slim transparent-background">
                                     <div class="border-slim row m-1">
                                         <div class="center-medium text-center">
                                             <h3>Reciprocal Heading</h3>

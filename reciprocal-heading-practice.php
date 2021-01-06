@@ -34,6 +34,18 @@ $solution = ($random_heading + 179) % 360 + 1;
                             </div>
                             <div class="col-md-6">
                                 <div class="mt-5 border-slim transparent-background">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <a class="btn btn-secondary btn-block" href="index.php"><i class="fas fa-long-arrow-alt-left"></i> Back</a>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <a class="btn btn-secondary btn-block" href="reciprocal-heading-explanation.php">How To <i class="fas fa-long-arrow-alt-right"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-2 border-slim transparent-background">
                                     <div class="border-slim row m-1">
                                         <div class="center-medium text-center">
                                             <h3>Reciprocal Heading</h3>
@@ -64,14 +76,17 @@ $solution = ($random_heading + 179) % 360 + 1;
                                 </div>
                                 <div class="border-slim row m-1 transparent-background">
                                     <div class="center-small">
-                                        <input type="text" id="heading" name="heading" class="form-control text-center" maxlength="3" placeholder="---">
+                                        <input type="text" id="heading" name="heading" class="form-control text-center" maxlength="3" placeholder="---" autocomplete="off">
+                                        <h6 id="answerRight">Your answer was correct!</h6>
+                                        <h6 id="answerWrong">Your answer was wrong!</h6>
+                                        <h6 id="correctAnswer">Solution: <?=$solution?></h6>
                                     </div>
                                 </div>
                                 <div class="mt-3 row m-1">
                                     <button class="btn btn-success btn-block" id="submit" name="submit" onclick="checkAnswer()">Check</button>
                                 </div>
                                 <div id="nextButton" class="mt-3 row m-1">
-                                    <a href="time-units.php" class="btn btn-secondary btn-block">Next</a>
+                                    <a href="reciprocal-heading-practice.php" class="btn btn-secondary btn-block">Next</a>
                                 </div>
                             </div>
                             <div class="col-md-3">
@@ -91,10 +106,18 @@ $solution = ($random_heading + 179) % 360 + 1;
         function checkAnswer() {
             var solution = Math.round(<?php echo json_encode($solution);?>);
             var nextButton = document.getElementById("nextButton");
+            var answerRight = document.getElementById("answerRight");
+            var answerWrong = document.getElementById("answerWrong");
+            var correctAnswer = document.getElementById("correctAnswer");
             if (document.getElementById("heading").value == solution) {
                 document.getElementById("heading").style.backgroundColor = "rgba(70, 240, 60, 1)";
+                answerRight.style.visibility = "visible";
             } else {
                 document.getElementById("heading").style.backgroundColor = "rgba(230, 70, 60, 1)";
+                answerRight.style.display = "none";
+                answerWrong.style.visibility = "visible";
+                answerWrong.style.display = "block";
+                correctAnswer.style.visibility = "visible";
             }
 
             nextButton.style.display = "block";
@@ -114,7 +137,6 @@ $solution = ($random_heading + 179) % 360 + 1;
                 } else {
                     document.getElementById("submit").click();
                 }
-                
             }
         });
 
