@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="icon" href="resources/images/icon.png" type="image/png">
 
-    <title>Pilot Maths | Time Units</title>
+    <title>Pilot Math | Time Units</title>
 </head>
 
 <body>
@@ -52,6 +52,13 @@
                                         </div>
                                         <div class="center-large text-center">
                                             <h5>Calculating the Top of Descent</h5>
+                                            <p>First you have to calculate the difference in heigt. For example for a descent from FL350 to 10,000 feet you need to lose 25,000 feet of altitude. Then you have to divide this value by 1,000 and multiply it with 3. Finally you have to add 10 to it to account for the speed reduction. The answer will be the minimum amount of nautical miles required for the descent.</p>
+                                            <p>Example:<br>
+                                                What is the minimum amount of nautical miles distance required for a descent from FL370 to 5,000 feet?</p>
+                                            <p>37,000 - 5,000 = 32,000<br>
+                                                32,000 / 1,000 = 32<br>
+                                                32 * 3 = 96<br>
+                                                96 + 10 = 106</p>
                                         </div>
                                     </div>
                                 </div>

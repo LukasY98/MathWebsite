@@ -27,9 +27,9 @@
 
             <h1>Impressum</h1>
             <h2>Angaben gem&auml;&szlig; &sect; 5 TMG</h2>
-            <p>&#91;Name&#93;<br />
-                &#91;Stra&szlig;e&#93;<br />
-                &#91;Ort&#93;</p>
+            <p>Lukas Yeung<br />
+                Tannenweg 7b<br />
+                26340 Zetel</p>
             <h2>Kontakt</h2>
             <p>Telefon: &#91;Telefonnummer&#93;<br />
                 E-Mail: &#91;E-Mail&#93;</p>

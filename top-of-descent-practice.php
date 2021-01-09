@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="icon" href="resources/images/icon.png" type="image/png">
 
-    <title>Pilot Maths | Time Units</title>
+    <title>Pilot Math | Time Units</title>
 </head>
 
 <?php

@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="icon" href="resources/images/icon.png" type="image/png">
 
-    <title>Pilot Maths | Reciprocal Heading</title>
+    <title>Pilot Math | Reciprocal Heading</title>
 </head>
 
 <body>
@@ -51,7 +51,17 @@
                                             <h4>Explanation:</h4>
                                         </div>
                                         <div class="center-large text-center">
-                                            <h5>Calculate the reciprocal heading for the following heading</h5>
+                                            <h5>Calculating the reciprocal heading for the present heading</h5>
+                                            <p>The reciprocal heading can be calculated in two very easy steps. First you have to look at your present heading and determine rather it is between 001 and 180 or between 181 and 360.</p>
+                                            <p>If your present heading is between 001 and 180 you have to add 180 to it. If it is between 181 and 360 you have to substract 180 from it.</p>
+                                            <p>Example:<br>
+                                                Calculate the reciprocal heading for heading 118:</p>
+                                            <p>118 + 180 = 298</p>
+                                            <p>Often it is easier to add 200 first and then substract 20 afterwards. (Or if the heading is greater than 180: substract 200 first and add 20 afterwards.)</p>
+                                            <p>Example:<br>
+                                                Calculate the reciprocal heading for heading 332:</p>
+                                            <p>332 - 200 = 132<br>
+                                                132 + 20 = 152</p>
                                         </div>
                                     </div>
                                 </div>

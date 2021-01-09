@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="icon" href="resources/images/icon.png" type="image/png">
 
-    <title>Pilot Maths</title>
+    <title>Pilot Math</title>
 </head>
 
 <body>
@@ -92,7 +92,7 @@
                                         <img src="resources/images/approach.jpg" alt="plane at gate" class="thumb">
                                     </div>
                                     <div class="col-md-9">
-                                        <p class="card-text">Many traffic patterns require the pilot to do a 180 degree turn and fly in the opposit direction. Even tough this task seems to be quite simple, doing this calculation in your head while still focusing on speed, altitude and other things can lead to mistakes. In this lesson you will learn a very easy method to figure out your reciprocal heading in your head.</p>
+                                        <p class="card-text">When an airline pilot is cruising his ship at over 30,000 feet it takes a lot of time and space to get it down to the ground in time without overshooting the runway. It is an important skill of any pilot to be able to calculate when the descent should be started in order to prevent unnecessary maneuvers and a waste of fuel. In this section you will learn an easy way to calcluate the Top of Descent.</p>
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-md">

@@ -1,4 +1,4 @@
-<a class="navbar-brand logo" href="index.php">Pilot-Maths.com <i class="fas fa-square-root-alt"></i></a>
+<a class="navbar-brand logo" href="index.php">Pilot-Math.com <i class="fas fa-square-root-alt"></i></a>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
 </button>
@@ -6,14 +6,10 @@
     <div class="ml-auto">
         <ul class="navbar-nav mr-auto">
             <li class="mr-2">
-                <form class="form-inline my-2">
-                    <button class="btn btn-outline-success my-sm-0" type="submit">Login</button>
-                </form>
+                <a href="page-in-progress.php" class="btn btn-outline-success my-sm-0">Login</a>
             </li>
             <li>
-                <form class="form-inline my-2">
-                    <button class="btn btn-outline-success my-sm-0" type="submit">Register</button>
-                </form>
+                <a href="page-in-progress.php" class="btn btn-outline-success my-sm-0">Register</a>
             </li>
         </ul>
     </div>

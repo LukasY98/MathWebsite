@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="icon" href="resources/images/icon.png" type="image/png">
 
-    <title>Pilot Maths | Reciprocal Heading</title>
+    <title>Pilot Math | Reciprocal Heading</title>
 </head>
 
 <?php
@@ -124,10 +124,9 @@ $solution = ($random_heading + 179) % 360 + 1;
         }
 
     </script>
-    <!-- TODO: Unabhängige Funktion mit Solution und Id als Parameter -->
 
     <script>
-        // click submit-button on enter-key pressen, when textfiel is selected
+        // click submit-button on enter-key pressed, when textfiel is selected
         var input = document.getElementById("heading");
         input.addEventListener("keyup", function(event) {
             if (event.keyCode === 13) {
